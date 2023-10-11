@@ -1,0 +1,1296 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+ 
+}
+/* @media (max-width: 768px) {
+   .side-bar {
+     display: none;
+   }
+ }
+
+ @import url(styles.css) all and (max-width: 1024px); */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #2874f0;
+}
+
+.container {
+    padding: 0 8px;
+}
+
+header {
+    background-color: var(--primary-color);
+    height: 58px;
+}
+
+header .nav-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 1248px;
+    margin: 0 auto;
+    padding-right: 10px;
+    padding-left: 200px;
+
+
+}
+
+header .nav-container .logo {
+    display: flex;
+    max-width: 137px;
+    justify-content: flex-end;
+}
+
+header .nav-container .logo img {
+    width: 75px;
+    
+  
+}
+
+header .Explore {
+    font-style: italic;
+    margin-top: 2px;
+    font-size: 11px;
+    text-decoration: none;
+}
+.a{
+   text-decoration: none;
+}
+
+header .search {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+
+header .search .search-container {
+    width: 450px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0/ 23%);
+    display: flex;
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    
+}
+::placeholder{
+   width: 1248pc;
+}
+
+header .search .search-container input {
+    width: calc(100% -32px);
+    height: 36px;
+    padding: 0 10px;
+    font:14px;
+    
+    border: none;
+    justify-content: center;
+    align-items: baseline;
+    border: none;
+}
+ .search-btn{
+   width: 44px;
+   height: 36px;
+   border: none;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 4px 12px 0 8px;
+   cursor: pointer;
+   margin-left: 270px;
+   margin-right: 0;
+   box-shadow: white;
+   
+}
+
+
+header .login {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 25px;
+}
+
+header .login button {
+    height: 36px;
+    width: 127px;
+    padding: 5px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin: 50px;
+}
+
+header .become-seller {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header .More {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color: white;
+    font: 16px;
+    font-weight: 500;
+}
+
+header .More svg {
+    margin-left: 8px;
+    rotate: -90deg;
+}
+
+header .cart {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    color: white;
+}
+
+header .cart svg {
+    margin-right: 8px;
+}
+
+.section-1 {
+    width: 100%;
+    height: 122px;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0/ 16%);
+}
+
+.section-1-container {
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-1-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.section-1-item img {
+    height: 66px;
+    width: 60px;
+    margin:1px;
+
+}
+
+.section-2-container {
+    margin: 20px 10px 10px 4px;
+    height: 280px;
+    width: 100%;
+    border: 5px;
+    border-color: white;
+    box-shadow: 0 1px 1px 1px rgb(0 0 0/ 9%);
+    padding-bottom:10px;
+    padding-right: 10px;
+}
+
+.section-3-container {
+    background-position: 0px bottom;
+    height: 362px;
+    margin-top: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 3px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    box-sizing: border-box;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+}
+
+.section-3-offer {
+    width: 230px;
+    height: 100%;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90");
+
+    background-position: 0px bottom;
+    background-repeat: no-repeat;
+}
+.section-3-BOE{
+    margin-top: 80px;
+    width: 100%;
+    font-size: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    padding: 20px;
+    border: 2px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-style:normal;
+
+}
+.section-3-container button{
+    margin: 20px 10px;
+    height: 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+.section-3-img{
+    max-height: 100%;
+    max-width: 200px;
+    display:inline;
+    padding: 0 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    
+    padding: 10px;
+    
+     
+}
+.section-3-img:hover{
+   font-size: 10px;
+   
+}
+
+._396cs4{
+    position:relative;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+}
+.section-3-container-head{
+    margin-top:16px;
+    font-size: 14px;
+    font-weight: 500; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.section-3-container-shop{
+margin: 12px 0 12px;
+font-size: 16px;
+color: #388e3c;
+align-items: center;
+}
+
+.section-3-container-brand{
+    opacity: 0.8;
+margin-top: 12px;
+font-weight: 300;
+font-size: 15px;
+}
+.section-3-More{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top:10px ;
+    box-sizing: border-box;
+    box-shadow:  0 2px 4px 0 rgb(0 0 0 /8%);;
+    border: 3px;
+    box-shadow: 3px;
+    
+}
+.section-4-container{
+    height: 362px;
+    width: 100%;
+    margin-top:8px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding:10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    box-sizing: border-box;
+    border: 3px;
+}
+.section-4-container button{
+    margin: 30px 10px;
+    height: 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.section-4-img{ 
+    max-height: 100%;
+    max-width: 100%;
+    display:inline;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:30px 2px ;
+    padding: 0px 2px 2px 2px;
+
+}
+.section-4-img:hover{
+   font-size: 10px;
+   
+}
+
+ .section-4-offers{
+    width: 200px;
+    height: 100%;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90&");
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+ }
+
+.section-4-offviews{
+   margin-top: 50px;
+    width: 100%;
+    font-size: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    padding: 30px;
+    border: 2px;
+    box-sizing: border-box;
+    font-weight: 500;
+    
+}
+
+.section-4-head{
+margin-top: 16px;
+font-size: 14px;
+font-weight: 500;
+}
+.section-4-off{
+margin-top: 12px;
+font-size: 16px;
+color: #388e3c;
+}
+.section-4-brand{
+
+opacity: 0.6;
+margin-top: 12px;
+font-weight: 300;
+font-size: 13px;
+}
+.section-5-container{
+    height: 362px;
+    width: 100%;
+    margin-top:8px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding:10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    box-sizing: border-box;
+    border: 3px;
+    
+    
+}
+.section-5-viewall{
+    margin-top: 132px;
+    width: 100%;
+    font-size: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    padding: 10px;
+    border: 2px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+.section-5-container button{
+    margin: 20px 20px;
+    height: 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer; 
+}
+ .section-5-viewall{
+    margin: 40px 1px 0 10px;
+    width: 100%;
+    font-size: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 2px;
+    box-sizing: border-box;
+    font-weight: 400;
+ }
+ .section-5-img{
+    max-height: 100%;
+    max-width: 100%;
+    display:inline;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin:30px 10px ;
+    padding: 0px 2px 2px 2px;
+
+ }
+ .section-5-img:hover{
+   font-size: 10px;
+   
+}
+ 
+ .section-5-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    }
+    .section-5-shop{
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+    }
+.section-6-container{
+    height: 362px;
+    width: 100%;
+    margin-top:8px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding:10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    box-sizing: border-box;
+    border: 3px;
+    
+    
+}
+.section-6-viewall{
+    margin-top: 10px ;
+    margin-left: 2px;
+    margin-right: 1px;
+    width: 100%;
+    font-size: 30px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    padding: 25px;
+    border: 2px;
+    box-sizing: border-box;
+    font-weight: 400;
+    justify-content: center;
+    word-wrap: break-word;
+   
+}
+.section-6-offers{
+    width: 200px;
+    height: 100%;
+}
+
+.section-6-container button{
+    margin: 20px 20px;
+    height: 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer; 
+}
+ .section-6-img{
+    max-height: 100%;
+    max-width: 100%;
+    display:inline;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin:30px 10px ;
+    padding: 0px 2px 2px 2px;
+
+ }
+ .section-6-img:hover{
+   font-size: 10px;
+   
+}
+ 
+ .section-6-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    }
+    .section-6-shop{
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+    }
+
+ .section-7-container{
+    height: 362px;
+    width: 100%;
+    margin-top:8px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding:10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    box-sizing: border-box;
+    border: 3px;
+    
+ }
+ .section-7-offer{
+    width: 200px;
+    height: 100% ;
+    background-image:url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90&");
+    background-position: 0px bottom;
+    background-repeat: no-repeat;
+ }
+ .section-7-viewall{
+    margin-top: 50px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: 500;
+ }
+ .section-7-container button{
+    margin: 10px 10px;
+    height: 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer; 
+ } 
+    .section-7-img{
+    max-height: 100%;
+    max-width: 100%;
+    display:inline;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin:30px 10px ;
+    padding: 0px 2px 2px 2px;
+ }
+ .section-7-img:hover{
+   font-size: 10px;
+   
+}
+ 
+    .section-7-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    }
+    .section-7-shop{
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+    }
+    .section-7-brand{
+    
+    opacity: 0.6;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 13px;
+    }
+ 
+ .section-8-container{
+    height: 362px;
+    width: 100%;
+    margin-top:8px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding:10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    box-sizing: border-box;
+    border: 3px;
+ }
+ .section-8-viewall{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    padding: 30px;
+    border: 2px;
+    box-sizing: border-box;
+    font-weight: 500;  
+ }
+ .section-8-container button{
+    margin: 20px 10px;
+    height: 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+ }
+ .section-8-offer{
+    width:200px ;
+    height: 100%;
+ background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/898b527fdf29b17a.jpg?q=90");
+  background-position: 0px bottom;
+  background-repeat: no-repeat;
+ }
+ .section-8-img{
+    max-height: 100%;
+    max-width: 100%;
+    display:inline;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin:30px 10px ;
+    padding: 0px 2px 2px 2px;
+ }
+ .section-8-img:hover{
+   font-size: 10px;
+   
+}
+ 
+ .section-8-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    }
+    .section-8-shop{
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+    }
+    .section-8-brand{
+    
+    opacity: 0.6;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 13px;
+    }
+ .section-9-container{
+    height: 362px;
+    width: 100%;
+    margin-top:8px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding:10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    box-sizing: border-box;
+    border: 3px;
+ }
+ .section-9-viewall{
+    margin-top: 1px;
+    width: 100%;
+    font-size: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    padding: 40px;
+    border: 2px;
+    box-sizing: border-box;
+    font-weight: 500;  
+ }
+ .section-9-container button{
+    margin: 20px 10px;
+    height: 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+ }
+ .section-9-offer{
+    width:200px ;
+    height: 100%;
+    background-image:url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90&");
+    background-position: 0px bottom;
+    background-repeat: no-repeat;
+ }
+ .section-9-img{
+    max-height: 100%;
+    max-width: 100%;
+    display:inline;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin:30px 10px ;
+    padding: 0px 2px 2px 2px;
+}
+.section-9-img:hover{
+   font-size: 10px;
+   
+}
+ .section-9-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    }
+    .section-9-shop{
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+    }
+    .section-9-brand{
+    
+    opacity: 0.6;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 13px;
+    }
+ .section-10-container{
+    height: 362px;
+    width: 100%;
+    margin-top:8px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding:10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    box-sizing: border-box;
+    border: 3px;
+ }
+ .section-10-viewall{
+    margin-top: 1px;
+    width: 100%;
+    font-size: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    padding: 40px;
+    border: 2px;
+    box-sizing: border-box;
+    font-weight: 500;  
+ }
+ .section-10-offer{
+    
+  width:200px ;
+  height: 100%;
+  background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/31d46a8fd93eeedd.jpg?q=90&quot"); 
+  background-position: 0px bottom;
+  background-repeat: no-repeat;
+ }
+ 
+ .section-10-container button{
+    margin: 20px 10px;
+    height: 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+ }
+
+ .section-10-viewall{
+    margin-top: 1px;
+    width: 100%;
+    font-size: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    padding: 40px;
+    border: 2px;
+    box-sizing: border-box;
+    font-weight: 500;  
+ }
+ .section-10-img{
+    max-height: 100%;
+    max-width: 100%;
+    display:inline;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin:30px 10px ;
+    padding: 0px 2px 2px 2px;
+ }
+ .section-10-img:hover{
+      font-size: 10px; 
+   }
+ /* section 11 */
+ .section-11-container{
+    height: 362px;
+    width: 100%;
+    margin-top:8px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding:10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    box-sizing: border-box;
+    border: 3px;
+ }
+ .section-11-viewall{
+    margin-top: 1px;
+    width: 100%;
+    font-size: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    padding: 40px;
+    border: 2px;
+    box-sizing: border-box;
+    font-weight: 500;  
+ }
+ .section-11-container button{
+    margin: 20px 10px;
+    height: 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+ }
+ .section-11-viewall{
+    margin-top: 1px;
+    width: 100%;
+    font-size: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    padding: 40px;
+    border: 2px;
+    box-sizing: border-box;
+    font-weight: 500;  
+ }
+ .section-11-offer{
+    width:200px ;
+    height: 100%;
+    background-image:url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90");
+     background-position: 0px bottom;
+    background-repeat: no-repeat;
+ }
+ 
+ .section-11-img{
+    max-height: 100%;
+    max-width: 100%;
+    display:inline;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin:30px 10px ;
+    padding: 0px 2px 2px 2px;
+ }
+ .section-11-img:hover{
+   font-size: 10px;
+   
+}
+ .section-11-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    }
+    .section-11-shop{
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+    }
+    .section-11-brand{
+    
+    opacity: 0.6;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 13px;
+    }
+ /* section-12 */
+ .section-12-container{
+    height: 362px;
+    width: 100%;
+    margin-top:8px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding:10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    box-sizing: border-box;
+    border: 3px;
+ }
+
+ 
+  .section-12-container button{
+    margin: 20px 10px;
+    height: 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+ }
+
+ .section-12-viewall{
+    margin-top: 1px;
+    width: 100%;
+    font-size: 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    padding: 40px; 
+    border: 2px;
+    box-sizing: border-box;
+    font-weight: 500;  
+ }
+
+ .section-12-offer{
+    width:200px ;
+    height: 100%;
+    background-position: 0px bottom;
+    background-repeat:no-repeat ;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/964e5530abdf3180.jpg?q=90");
+    background-position: 0px bottom;
+   
+ }
+ .section-12-container button{
+    margin: 20px 10px;
+    height: 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+ }
+ .section-12-img{
+    max-height: 100%;
+    max-width: 100%;
+    display:inline;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin:30px 10px ;
+    padding: 0px 2px 2px 2px;
+ }
+ .section-12-img:hover{
+   font-size: 5px;
+   
+}
+ .section-12-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    }
+    .section-12-shop{
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+    }
+    .section-12-brand{
+    
+    opacity: 0.6;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 13px;
+    }
+
+ 
+ .section-13-container{
+    height: 362px;
+    width: 100%;
+    margin-top:8px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding:10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    box-sizing: border-box;
+    border: 3px;
+ }
+
+ 
+  .section-13-container button{
+    margin: 20px 10px;
+    height: 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+ }
+
+ .section-13-viewAll{
+
+    margin-top: 1px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    padding: 30px; 
+    border: 2px;
+    box-sizing: border-box;
+    font-weight: 500;  
+ }
+
+ .section-13-offer{
+    width:200px ;
+    height: 100%;
+    background-position: 0px bottom;
+    background-repeat:no-repeat ;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/82905b5b763b5da8.jpg?q=90"); background-position: 0px bottom;
+ }
+
+ .section-13-img{
+    max-height: 100%;
+    max-width: 100%;
+    display:inline;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin:30px 10px ;
+    padding: 0px 2px 2px 2px;
+ }
+ .section-13-img:hover{
+   font-size: 100px;
+   
+}
+ .section-13-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    }
+    .section-13-shop{
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+    }
+    .section-13-brand{
+    
+    opacity: 0.6;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 13px;
+    }
+
+ .section-14-container{
+    height: 362px;
+    width: 100%;
+    margin-top:8px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding:10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    box-sizing: border-box;
+    border: 3px;
+    
+ }
+ .section-14-offer{
+    width:200px ;
+    height: 100%;
+    background-position: 0px bottom;
+    background-repeat:no-repeat ;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/d5408faca4201222.jpg?q=90"); background-position: 0px bottom;
+
+ }
+.section-14-viewall{
+    margin-top: 1px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+    padding: 30px; 
+    border: 2px;
+    box-sizing: border-box;
+    font-weight: 500;  
+}
+.section-14-container button{
+    margin: 20px 10px;
+    height: 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 /20%);
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;   
+}
+.section-14-img{
+    max-height: 100%;
+    max-width: 100%;
+    display:inline;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin:30px 10px ;
+    padding: 0px 2px 2px 2px;   
+}
+.section-14-img:hover{
+   font-size: 100px;
+   
+}
+.section-14-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    }
+    .section-14-shop{
+    margin-top: 12px;
+    font-size: 16px;
+    color: #388e3c;
+    }
+    .section-14-brand{
+    
+    opacity: 0.6;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 13px;
+    }
+   .section-15{
+      background-color: #172337;
+      color: white;
+      padding: 80px;
+      padding-top: 50px;
+      flex-direction: row;
+      display: flex;
+      font-size: 12px;
+      font-weight:400 ;
+      line-height: 2;
+      text-align:left; 
+      padding-right: 80px;
+      padding-left: 80px;
+      padding-bottom: 50px;
+      justify-content: space-between;
+      
+     
+   }
+   
+
+   .section-15 ul {
+      color: grey;
+   }
+   .section-15 ul li{
+      margin: 5px;
+      color: white;
+      list-style: none;
+      
+
+   }
+   hr{
+      height: 0.001px;
+      color:gray;
+        
+
+   }
+
+   .section-16{
+      display:flex;
+      background-color: #172337;
+      color: #ffffff;
+      padding: 25px 100px 25px 10px;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      
+     
+   }
+   .section-16-img{
+      padding-right: 0px;
+       display:inline-flex;
+   }
